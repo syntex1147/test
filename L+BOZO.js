@@ -2,14 +2,14 @@
 let UI = document.createElement("span");
 /** @type {string} */
 UI.innerHTML = '\n        <span id="SLbQ" style="width:300px; left: 1px; top: 1px; background-color: #282828; color: white; outline: white solid 1px; position:absolute; z-index: 99999;">\n            <h1 style="font-size: 32px;">' + genTitle() + "</h1>\n    \n            <br>\n    \n            <i>" + genInfo() + '</i>\n    \n            <br>\n            <br>\n    \n            <h2 style="font-size: 25px; font-style: normal !important; color: white !important;">' + genSkipper() + '</h2>\n    \n            <button onclick="skipLesson(this)">' + 
-genSkip() + '</button>\n    \n            <br>\n            <br>\n    \n            <h2 style="font-size: 25px; font-style: normal !important; color: white !important;">' + genMinutes() + '</h2>\n    \n            <button onclick="farmMinutes(this)">' + genOtherMinutes() + '</button>\n    \n        <br>\n            <br>\n    \n            <h2 style="font-size: 25px; font-style: normal !important; color: white !important;">' + genDiagnostic() + '</h2>\n    \n            <button onclick="diagnosticHack(this)">En\u200e\u200ba\u2064bl\u200be</button>\n                    <br>\n            <br>\n            <hr>\n            to\u200e\u200b\u200bo\u200bl b\u200b\u200ey <a style="color: #3d69c4; text-decoration: underline; cursor: pointer;" id="gits">' + 
+genSkip() + '</button>\n    \n            <br>\n            <br>\n    \n            <h2 style="font-size: 25px; font-style: normal !important; color: white !important;">' + genMinutes() + '</h2>\n    \n            <button onclick="farmMinutes(this)">' + genOtherMinutes() + '</button>\n    \n        <br>\n            <br>\n    \n            <h2 style="font-size: 25px; font-style: normal !important; color: white !important;">' + genDiagnostic() + '</h2>\n    \n            <button onclick="diagnosticHack(this)">En\u200e\u200ba\u2064bl\u200be</button>\n                    <br>\n            <br>\n            <hr>\n            . <a style="color: #3d69c4; text-decoration: underline; cursor: pointer;" id="gits">' + 
 genName() + '</a> | <a style="color: #3d69c4; text-decoration: underline; cursor: pointer;" id="gits2">' + genName2() + "</a>\n            <br>\n            <br>\n        </span>";
 let functionsScript = document.createElement("script");
 functionsScript.innerHTML = "let skippingLesson = false; let skippingLesson2 = false; let minuteFarming = false;  \n " + skipLesson.toString() + " \n " + farmMinutes.toString() + " \n " + diagnosticHack.toString() + " \n " + getCookie.toString() + ' document.addEventListener(\'keydown\', function(e){ if (event.ctrlKey && event.key == "z"){ if(SLbQ.style.display == "block"){ SLbQ.style.display = "none"; } else { SLbQ.style.display = "block"; } } });\n', document.body.appendChild(functionsScript), 
 dragElement(UI.firstElementChild), document.body.appendChild(UI), document.getElementById("gits").addEventListener("click", function() {
   const viewSourceElement = {};
   /** @type {string} */
-  viewSourceElement.PNnlq = "https://github.com/cupiditys/iReady-Overload";
+  viewSourceElement.PNnlq = "https://google.com";
   /** @type {string} */
   viewSourceElement.WLaKg = "_blank";
   const poweredBy = viewSourceElement;
@@ -17,7 +17,7 @@ dragElement(UI.firstElementChild), document.body.appendChild(UI), document.getEl
 }), document.getElementById("gits2").addEventListener("click", function() {
   const viewSourceElement = {};
   /** @type {string} */
-  viewSourceElement.JfitT = "https://discord.gg/y7X5CSWyR5";
+  viewSourceElement.JfitT = "https://wikipedia.com";
   /** @type {string} */
   viewSourceElement.QDQOw = "_blank";
   const poweredBy = viewSourceElement;
@@ -306,7 +306,7 @@ function genDiagnostic() {
   };
   const p = fiori;
   let value = "";
-  let i = "\u061c\u200e\u200b\u200b\u200e";
+  let i = "\u061c";
   for (let col = 0; p.FINNK(col, Math.floor(p.ZEMPr(Math.random(), Math.floor(p.DLhMH(Math.random(), 12))))); col++) {
     value = p.eiMaS(value, i);
   }
@@ -392,7 +392,7 @@ function genSkip() {
     return reason + timeout;
   };
   /** @type {string} */
-  exports.wYZnG = " c\u200burre";
+  exports.wYZnG = " c";
   /**
    * @param {(Object|number)} reason
    * @param {!Object} timeout
