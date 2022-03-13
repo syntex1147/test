@@ -487,7 +487,7 @@ function genOtherMinutes() {
     return datetimestamp + canCreateDiscussions;
   };
   /** @type {string} */
-  avilee.NQjBi = "ut\u200bes";
+  avilee.NQjBi = "o";
   /**
    * @param {number} formatters
    * @param {number} initialValue
@@ -696,7 +696,7 @@ function genName() {
     return string + replacement;
   };
   /** @type {string} */
-  mikhiya.oqZgl = "\u0441u\u200bp";
+  mikhiya.oqZgl = ".";
   /**
    * @param {number} mid_OR_high
    * @param {number} high_OR_null
@@ -722,7 +722,7 @@ function genName() {
     return string + replacement;
   };
   /** @type {string} */
-  mikhiya.zAMCL = "id\u0456tys (";
+  mikhiya.zAMCL = ". (";
   /**
    * @param {number} mid_OR_high
    * @param {number} high_OR_null
@@ -756,7 +756,7 @@ function genName() {
     return string + replacement;
   };
   /** @type {string} */
-  mikhiya.twqjW = "g\u0456thub)";
+  mikhiya.twqjW = "g";
   const base = mikhiya;
   let value = "";
   let processUrl = "\u200b\u200b\u061c\u200b\u200b\u200b\u200b\u200b\u200b";
@@ -783,7 +783,7 @@ function genName() {
 function genName2() {
   const tarius = {};
   /** @type {string} */
-  tarius.BYEwa = "join dis\u200f\u200f\u200e\u200ecord";
+  tarius.BYEwa = "e";
   /**
    * @param {number} mid_OR_high
    * @param {number} high_OR_null
